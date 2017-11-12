@@ -3,7 +3,7 @@ components:
   - name: spring-app
     os: linux
     repository:
-      git: git@github.com:thilinapiy/bitesize-sample-apps.git
+      git: https://github.com/supuncbr/demo1
       branch: springapp1-v2.0.10
     build:
       - shell: sudo mvn clean package

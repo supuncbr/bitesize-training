@@ -1,12 +1,12 @@
-project: sample
+project: demo1
 environments:
   - name: Development
-    namespace: sample-dev
+    namespace: demo1-dev
     deployment:
       method: rolling-upgrade
     services:
       - name: spring-app
-        external_url: hellobite-sample.dev-bite.io
+        external_url: demo1.bst.prsn-dev.io
         port: 8080 
         ssl: "false"
         replicas: 1
