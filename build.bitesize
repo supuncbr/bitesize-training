@@ -3,8 +3,8 @@ components:
   - name: spring-app
     os: linux
     repository:
-      git: https://github.com/supuncbr/demo1
-      branch: springapp1-v2.0.10
+      git: https://github.com/supuncbr/demo1.git
+      branch: master
     build:
       - shell: sudo mvn clean package
       - shell: sudo mkdir -p /app
