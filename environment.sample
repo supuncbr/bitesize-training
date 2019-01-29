@@ -3,8 +3,7 @@ environments:
   - name: sample-app-environment
     namespace: sample-app
     deployment:
-      method: bluegreen
-      active: green
+      method: rolling-upgrade
     services:
       - name: front
         external_url: front1.sample-app.domain
