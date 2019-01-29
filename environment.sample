@@ -10,7 +10,7 @@ environments:
         external_url: front1.sample-app.domain
         ssl: false
         port: 80
-        replicas: 2
+        replicas: 1
         env:
           - name: APP_PORT
             value: 80
