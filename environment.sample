@@ -20,7 +20,7 @@ environments:
            memory: 100Mi
       - name: back
         port: 80
-        replicas: 1
+        replicas: 2
         hpa:
           min_replicas: 1
           max_replicas: 5
